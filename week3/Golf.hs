@@ -1,6 +1,7 @@
+{-# OPTIONS_GHC -Wall #-}
+
 module Golf where
 
-import Data.List (group, sort)
 import Prelude hiding (head, tail, init, (!!))
 
 {-| The 'every' function drops the nth -1 element of a list.
